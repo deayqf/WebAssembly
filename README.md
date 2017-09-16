@@ -65,6 +65,8 @@ emcc hello.c -s WASM=1 -o index.html
 
 ---
 ### Journal
-I would have to say I learned a lot from this exploration and was able to extrapolate off of this basic setup and use [Simple Directmedia Layer](https://www.libsdl.org/) to render shapes in the screen above the terminal on the Emscripten default page. You can view that project running [here](http://davidauger.tech/wasm/sdl/).
+I would have to say I learned a lot from this exploration and was able to extrapolate off of this basic setup and use [Simple Directmedia Layer](https://www.libsdl.org/) to render shapes in the screen above the terminal on the Emscripten default page. 
+You can view that project running [here](http://davidauger.tech/wasm/sdl/).
+You can clone that project [here](https://github.com/deayqf/WebAssembly-SDL).
 
 The main difficulties I encountered during this exploration were due to not understanding the Emscripten compiler as that `emcc` command barely scratches the surface of how complex the compilation lines get, the command for compiling my SDL project looks like this: `emcc -O2 --js-opts 0 -g4 main.c -I/home/deayqf/SDL-emscripten/include -I/home/deayqf/SDL-emscripten/build/.libs/libSDL2.a -o index.html`
