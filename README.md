@@ -5,6 +5,10 @@ David Auger
 ### About
 This exploration is about setting up [WebAssembly](http://webassembly.org/) and learning how to use the [Emscripten LLVM](http://kripken.github.io/emscripten-site/index.html) to JavaScript compiler. WebAssembly allows you to write web apps in native C/C++ that runs at near native speeds.
 
+**My git repo:** https://github.com/deayqf/WebAssembly.git
+
+**My instance:** http://davidauger.tech/wasm/hello/
+
 ---
 ### Setup
 **1. Open an SSH connectio with your EC2 instance and login.**
