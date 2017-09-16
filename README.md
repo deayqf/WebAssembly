@@ -32,6 +32,7 @@ source ./emsdk_env.sh
 ---
 ### Hello World
 **1. `cd` into your Apache document root:** `cd /var/www/html`
+
 **2. Once you are in your document root, run these commands:**
   - `chmod 777` seems unnecessary but Emscripten has issues with permissions.
 ```bash
