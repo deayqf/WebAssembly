@@ -8,6 +8,7 @@ This exploration is about setting up WebAssembly and learning how to use the Ems
 ---
 ### Setup
 **1. Open an SSH connectio with your EC2 instance and login.**
+
 **2. Once you are in you home directory `user@host: ~ $` run these commands:**
   - These commands install the dependencies that Emscripten needs to build the SDK.
 ```bash
